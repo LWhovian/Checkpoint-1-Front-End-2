@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu livro de receitas</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="containerReceita">
+        <div class="containerPagina">
+            <div class="imagemDaPagina">
+                <img src="assets/img/undraw_cooking_lyxy (1).svg" alt="Imagem culinária">
+            </div>
+
+            <div class="formulario">
+                <form action="#">
+                    <div class="header">
+                        <div class="title">
+                            <h1>Cadastre suas receitas</h1>
+                        </div>
+                    </div>
+
+                        <div class="inputs">
+                            <div class="inputSpace">
+                                <label for="nomeDaReceita">Nome da receita</label>
+                                <input id="nomeDaReceita" type="text" name="titulo" placeholder="Nome da sua receita" required>
+                            </div>
+
+                            <div class="inputSpace">
+                                <label for="imagemDaReceita">Foto da receita</label>
+                                <input id="imagemDaReceita" type="url" name="url" placeholder="URL da foto da receita" required>
+                            </div>
+
+                            <div class="inputSpace">
+                                <label for="ingredientes">Ingredientes</label>
+                                <input id="ingredientes" type="text" name="ingredientes" placeholder="Ingredientes da receita" required>
+                            </div>
+
+                            <div class="inputSpace">
+                                <label for="modoDePreparo">Modo de preparo</label>
+                                <input id="modoDePreparo" type="text" name="modo" placeholder="Modo de preparo" required>
+                            </div>
+                        </div>
+                <div class="botaoAdicionar">
+                    <button onclick="start()"><a href="#"> Adicionar Receita</a></button>
+                </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    
+    <div class="containerReceita2">
+        <div class="titleReceitas">
+            <h2>Receitas Salvas</h2>
+        </div>
+        <div class="Container">
+            <div class="postagem">
+                <p>a</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
